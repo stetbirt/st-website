@@ -1,0 +1,38 @@
+.main-card{
+    border-radius: 6px;
+    height: 350px;
+    width: 100%;
+    min-width: 100px;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-card:hover {
+    transition: 0.4s all;
+    scale: 1.13;
+}
+
+.main-card:hover .gradient-filter{
+    transition: 0.2s all;
+    visibility: visible;
+    cursor: pointer;
+}
+
+.gradient-filter{
+    border-radius: 6px;
+    height: 100%;
+    visibility: hidden;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+}
+
+.image-desc-234 {
+    width:100%;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.title-desc{
+    padding-top: 182px;
+}

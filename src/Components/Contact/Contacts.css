@@ -1,0 +1,10 @@
+.container-height{
+    height: 600px;
+    background-position:center;
+    background-size: cover;
+}
+
+.main-card-container:hover {
+    transition: all 0.4s;
+    scale: 1.08;
+}

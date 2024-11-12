@@ -1,0 +1,4 @@
+.coming-soon:hover {
+    transition: all 0.7s;
+    scale: 1.3;
+}

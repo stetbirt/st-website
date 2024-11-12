@@ -1,0 +1,18 @@
+.mega-container {
+    position: absolute;
+    margin: auto auto;
+    left: 0;
+    right: 0;
+    max-width: 1600px;
+}
+
+.main-image{
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.main-image:hover{
+    transition: all 0.2s;
+    scale: 1.10;
+}

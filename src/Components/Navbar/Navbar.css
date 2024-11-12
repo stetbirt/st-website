@@ -1,0 +1,39 @@
+.navbar{
+    max-width: 1400px;
+    min-width: 800px;
+    left: 0;
+    right: 0;
+    margin: 0 auto auto;
+    background-color: white;
+    height: 180px;
+}
+
+.title{
+    position: absolute;
+    width: fit-content;
+    left: 0;
+    right: 0;
+    margin: 50px auto auto;
+}
+
+.menu-options-links{
+    opacity: 45%;
+    letter-spacing: 1px;
+}
+
+.menu-options-links:hover{
+    cursor: pointer;
+    opacity: 100%;
+}
+
+.active{
+    opacity: 100%;
+}
+
+.menu-options{
+    position: absolute;
+    width: fit-content;
+    left: 0;
+    right: 0;
+    margin: 110px auto auto;
+}

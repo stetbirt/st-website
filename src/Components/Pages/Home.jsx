@@ -1,25 +1,134 @@
 import Card from "../Cards/Card.jsx";
 import './Home.css'
+import ImageGallery from "react-image-gallery";
+import "react-image-gallery/styles/css/image-gallery.css";
+import React from "react";
 
 const title1 = 'Project Eulys';
 const desc1 = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus est nibh, rhoncus ut ante nec, sollicitudin molestie velit. In vestibulum mi eget interdum lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus est nibh, rhoncus ut ante nec, sollicitudin molestie velit. In vestibulum mi eget interdum lobortis.'
+
 export const Home = () => {
+
+    const images = [
+        {
+            original: "https://picsum.photos/id/1015/3840/2160/",
+            thumbnail: "https://picsum.photos/id/1015/1920/1080/",
+        },
+        {
+            original: "https://picsum.photos/id/1019/3840/2160/",
+            thumbnail: "https://picsum.photos/id/1019/1920/1080/",
+        },
+        {
+            original: "https://picsum.photos/id/1018/3840/2160/",
+            thumbnail: "https://picsum.photos/id/1018/1920/1080/",
+        },
+        {
+            original: '/src/Assets/images/1.jpg',
+            thumbnail: '/src/Assets/images/1.jpg',
+        },
+        {
+            original: "https://picsum.photos/id/1015/3840/2160/",
+            thumbnail: "https://picsum.photos/id/1015/1920/1080/",
+        },
+        {
+            original: "https://picsum.photos/id/1019/3840/2160/",
+            thumbnail: "https://picsum.photos/id/1019/1920/1080/",
+        },
+        {
+            original: "https://picsum.photos/id/1018/3840/2160/",
+            thumbnail: "https://picsum.photos/id/1018/1920/1080/",
+        },
+        {
+            original: "https://picsum.photos/id/1015/3840/2160/",
+            thumbnail: "https://picsum.photos/id/1015/1920/1080/",
+        },
+        {
+            original: "https://picsum.photos/id/1019/3840/2160/",
+            thumbnail: "https://picsum.photos/id/1019/1920/1080/",
+        },
+        {
+            original: "https://picsum.photos/id/1018/3840/2160/",
+            thumbnail: "https://picsum.photos/id/1018/1920/1080/",
+        },
+        {
+            original: "https://picsum.photos/id/1015/3840/2160/",
+            thumbnail: "https://picsum.photos/id/1015/1920/1080/",
+        },
+        {
+            original: "https://picsum.photos/id/1019/3840/2160/",
+            thumbnail: "https://picsum.photos/id/1019/1920/1080/",
+        },
+        {
+            original: "https://picsum.photos/id/1019/3840/2160/",
+            thumbnail: "https://picsum.photos/id/1019/1920/1080/",
+        },
+        {
+            original: "https://picsum.photos/id/1018/3840/2160/",
+            thumbnail: "https://picsum.photos/id/1018/1920/1080/",
+        },
+        {
+            original: "https://picsum.photos/id/1015/3840/2160/",
+            thumbnail: "https://picsum.photos/id/1015/1920/1080/",
+        },
+        {
+            original: "https://picsum.photos/id/1019/3840/2160/",
+            thumbnail: "https://picsum.photos/id/1019/1920/1080/",
+        },
+        {
+            original: "https://picsum.photos/id/1019/3840/2160/",
+            thumbnail: "https://picsum.photos/id/1019/1920/1080/",
+        },
+        {
+            original: "https://picsum.photos/id/1018/3840/2160/",
+            thumbnail: "https://picsum.photos/id/1018/1920/1080/",
+        },
+        {
+            original: "https://picsum.photos/id/1015/3840/2160/",
+            thumbnail: "https://picsum.photos/id/1015/1920/1080/",
+        },
+        {
+            original: "https://picsum.photos/id/1019/3840/2160/",
+            thumbnail: "https://picsum.photos/id/1019/1920/1080/",
+        },
+    ];
+
     return (
         <div className="header-section1">
 
-            <div className="cards px-10">
-                <div className="card"><Card imageName={'1.jpg'} description={desc1} title={title1}></Card></div>
-                <div className="card"><Card imageName={'1.jpg'} description={desc1} title={title1}></Card></div>
-                <div className="card"><Card imageName={'1.jpg'} description={desc1} title={title1}></Card></div>
-                <div className="card"><Card imageName={'1.jpg'} description={desc1} title={title1}></Card></div>
-                <div className="card"><Card imageName={'1.jpg'} description={desc1} title={title1}></Card></div>
-                <div className="card"><Card imageName={'1.jpg'} description={desc1} title={title1}></Card></div>
-                <div className="card"><Card imageName={'1.jpg'} description={desc1} title={title1}></Card></div>
-                <div className="card"><Card imageName={'1.jpg'} description={desc1} title={title1}></Card></div>
-                <div className="card"><Card imageName={'1.jpg'} description={desc1} title={title1}></Card></div>
-                <div className="card"><Card imageName={'1.jpg'} description={desc1} title={title1}></Card></div>
-                <div className="card"><Card imageName={'1.jpg'} description={desc1} title={title1}></Card></div>
-                <div className="card"><Card imageName={'1.jpg'} description={desc1} title={title1}></Card></div>
+            <div className="main-carousel-page ml-auto mr-auto mb-10">
+                <ImageGallery
+                    items={images}
+                    thumbnailPosition={'bottom'}
+                />
+            </div>
+
+            <div className="mega-container">
+                <div className="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
+                    <div className="flex flex-col lg:flex-row justify-between gap-14">
+                        <div className="w-full lg:w-5/12 flex flex-col">
+                            <h1 className="text-3xl lg:text-4xl font-bold text-gray-800 pb-4">About Me</h1>
+                            <p className="font-normal text-base leading-6 text-gray-600 ">Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit. Etiam quis eros eget justo tempor porta ut id dui. Donec
+                                neque sem, vulputate fermentum nibh a, consequat vulputate nisi. Integer et lacinia
+                                odio. Vivamus et lorem tellus. Integer vehicula sit amet enim non viverra. Curabitur
+                                cursus ac ligula ut volutpat. Quisque consequat ut tellus in aliquet. Pellentesque vitae
+                                blandit justo, ac sagittis leo. Donec sodales metus vel dapibus ultrices.</p>
+                            <h1 className="text-3xl lg:text-4xl font-bold leading-9 text-gray-800 pb-4 pt-10">My
+                                Story</h1>
+                            <p className="font-normal text-base leading-6 text-gray-600 ">
+                                Quisque tellus tortor, malesuada ac sapien eu, posuere viverra ligula. Phasellus
+                                ultricies leo a magna mollis, eget venenatis risus tincidunt. Fusce at laoreet arcu.
+                                Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant
+                                morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec
+                                ullamcorper sit amet sapien et posuere. Vivamus vel rutrum nibh. Sed elementum suscipit
+                                dolor, ac volutpat lectus ullamcorper a. Mauris eget malesuada nunc. Phasellus vel
+                                tellus nec libero eleifend dapibus vel id nisi.</p>
+                        </div>
+                        <div className="main-image w-full lg:w-8/12"
+                             style={{backgroundImage: `url(/src/Assets/images/1.jpg)`}}>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <p className="league-spartan-400 text-black text-xl pt-96 text-center">ALL RIGHTS RESERVED</p>

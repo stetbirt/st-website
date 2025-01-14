@@ -9,10 +9,88 @@ const desc1 = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellu
 
 export const Home = () => {
 
+    const directory = '/src/Assets/logos/';
+
     const images = [
         {
-            original: "https://picsum.photos/id/1015/3840/2160/",
-            thumbnail: "https://picsum.photos/id/1015/1920/1080/",
+            original : directory + "Andaloussi-2024-Noune.png",
+            thumbnail : directory + "Andaloussi-2024-Noune.png",
+        },
+        {
+            original : directory + "Cadenas-JIM-Noir.png",
+            thumbnail : directory + "Cadenas-JIM-Noir.png",
+        },
+        {
+            original : directory + "Cadenas-JIM-petit.png",
+            thumbnail : directory + "Cadenas-JIM-petit.png",
+        },
+        {
+            original : directory + "Dhael.png",
+            thumbnail : directory + "Dhael.png",
+        },
+        {
+            original : directory + "Djanoub-3lam-2.png",
+            thumbnail : directory + "Djanoub-3lam-2.png",
+        },
+        {
+            original : directory + "Djanoub-nord-sud-1.png",
+            thumbnail : directory + "Djanoub-nord-sud-1.png",
+        },
+        {
+            original : directory + "folded-letter-Lam.png",
+            thumbnail : directory + "folded-letter-Lam.png",
+        },
+        {
+            original : directory + "Horouf-Chromes-mgata3-3Ain.png",
+            thumbnail : directory + "Horouf-Chromes-mgata3-3Ain.png",
+        },
+        {
+            original : directory + "Hourouf-2ouba-TEST-Lam.png",
+            thumbnail : directory + "Hourouf-2ouba-TEST-Lam.png",
+        },
+        {
+            original : directory + "Hourouf-Filet-Alif-CLIP.png",
+            thumbnail : directory + "Hourouf-Filet-Alif-CLIP.png",
+        },
+        {
+            original : directory + "Hourouf-Handassia-Couleur-Lam.png",
+            thumbnail : directory + "Hourouf-Handassia-Couleur-Lam.png",
+        },
+        {
+            original : directory + "Hourouf-Handassia-TEST.png",
+            thumbnail : directory + "Hourouf-Handassia-TEST.png",
+        },
+        {
+            original : directory + "Hourouf-Khyal-Brocha-Main-Lam-Couleur.png",
+            thumbnail : directory + "Hourouf-Khyal-Brocha-Main-Lam-Couleur.png",
+        },
+        {
+            original : directory + "Hourouf-Rossort-1-Ha-2024.png",
+            thumbnail : directory + "Hourouf-Rossort-1-Ha-2024.png",
+        },
+        {
+            original : directory + "IMAGES-TEST.png",
+            thumbnail : directory + "IMAGES-TEST.png",
+        },
+        {
+            original : directory + "Lettre-outils-scol-Test-2024-Ba2.png",
+            thumbnail : directory + "Lettre-outils-scol-Test-2024-Ba2.png",
+        },
+        {
+            original : directory + "PROTOTYPES-BOIS-HA2.png",
+            thumbnail : directory + "PROTOTYPES-BOIS-HA2.png",
+        },
+        {
+            original : directory + "PROTOTYPES-BOIS-JIM.png",
+            thumbnail : directory + "PROTOTYPES-BOIS-JIM.png",
+        },
+        {
+            original : directory + "zaweche.png",
+            thumbnail : directory + "zaweche.png",
+        },
+        {
+            original: "https://picsum.photos/id/1016/3840/2160/",
+            thumbnail: "https://picsum.photos/id/1016/1920/1080/",
         },
         {
             original: "https://picsum.photos/id/1019/3840/2160/",
@@ -98,7 +176,7 @@ export const Home = () => {
             <div className="main-carousel-page ml-auto mr-auto mb-10">
                 <ImageGallery
                     items={images}
-                    thumbnailPosition={'bottom'}
+                    thumbnailPosition={'left'}
                 />
             </div>
 

@@ -97,10 +97,6 @@ export const Home = () => {
             thumbnail: "https://picsum.photos/id/1018/1920/1080/",
         },
         {
-            original: '/st-website/src/Assets/images/1.jpg',
-            thumbnail: '/st-website/src/Assets/images/1.jpg',
-        },
-        {
             original: "https://picsum.photos/id/1015/3840/2160/",
             thumbnail: "https://picsum.photos/id/1015/1920/1080/",
         },

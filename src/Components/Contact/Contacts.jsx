@@ -9,7 +9,7 @@ const Contacts = () => {
                     <div className="">
                         <div className="lg:mb-0 mb-10">
                             <div className="group w-full">
-                                <div className="relative container-height lg:rounded-l-xl rounded-xl" style={{backgroundImage: `url(/st-website/src/Assets/images/1.jpg)`}}>
+                                <div className="relative container-height lg:rounded-l-xl rounded-xl" style={{backgroundImage: `url(/st-website/assets/images/1.jpg)`}}>
                                     <h1 className="font-manrope text-white text-4xl font-bold leading-10 absolute top-11 left-11">My Card</h1>
                                     <div className="absolute bottom-0 w-full lg:p-11 p-5">
                                         <div className="bg-white rounded-lg p-6 block">

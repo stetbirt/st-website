@@ -1,11 +1,7 @@
-import Card from "../Cards/Card.jsx";
 import './Home.css'
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 import React from "react";
-
-const title1 = 'Project Eulys';
-const desc1 = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus est nibh, rhoncus ut ante nec, sollicitudin molestie velit. In vestibulum mi eget interdum lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus est nibh, rhoncus ut ante nec, sollicitudin molestie velit. In vestibulum mi eget interdum lobortis.'
 
 export const Home = () => {
 
@@ -173,11 +169,13 @@ export const Home = () => {
     return (
         <div className="header-section1">
 
-            <div className="main-carousel-page ml-auto mr-auto mb-10">
-                <ImageGallery
-                    items={images}
-                    thumbnailPosition={'left'}
-                />
+            <div className="bg-black">
+                <div className="main-carousel-page ml-auto mr-auto mb-10">
+                    <ImageGallery
+                        items={images}
+                        thumbnailPosition={'left'}
+                    />
+                </div>
             </div>
 
             <div className="mega-container">

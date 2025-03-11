@@ -201,7 +201,7 @@ export const Home = () => {
                                 tellus nec libero eleifend dapibus vel id nisi.</p>
                         </div>
                         <div className="main-image w-full lg:w-8/12"
-                             style={{backgroundImage: `url(st-website/src/Assets/images/1.jpg)`}}>
+                             style={{backgroundImage: `url(src/Assets/images/1.jpg)`}}>
                         </div>
                     </div>
                 </div>

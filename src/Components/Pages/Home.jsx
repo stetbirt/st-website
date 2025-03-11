@@ -5,7 +5,7 @@ import React from "react";
 
 export const Home = () => {
 
-    const directory = '/st-website/src/Assets/logos/';
+    const directory = '/st-website/assets/logos/';
 
     const images = [
         {
@@ -201,7 +201,7 @@ export const Home = () => {
                                 tellus nec libero eleifend dapibus vel id nisi.</p>
                         </div>
                         <div className="main-image w-full lg:w-8/12"
-                             style={{backgroundImage: `url(assets/images/1.jpg)`}}>
+                             style={{backgroundImage: `url(/st-website/assets/images/1.jpg)`}}>
                         </div>
                     </div>
                 </div>

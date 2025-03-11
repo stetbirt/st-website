@@ -15,7 +15,7 @@ export const About = () => {
                         <p className="font-normal text-base leading-6 text-gray-600 ">
                             Quisque tellus tortor, malesuada ac sapien eu, posuere viverra ligula. Phasellus ultricies leo a magna mollis, eget venenatis risus tincidunt. Fusce at laoreet arcu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec ullamcorper sit amet sapien et posuere. Vivamus vel rutrum nibh. Sed elementum suscipit dolor, ac volutpat lectus ullamcorper a. Mauris eget malesuada nunc. Phasellus vel tellus nec libero eleifend dapibus vel id nisi.</p>
                     </div>
-                    <div className="main-image w-full lg:w-8/12" style={{backgroundImage: `url(/src/Assets/images/1.jpg)`}}>
+                    <div className="main-image w-full lg:w-8/12" style={{backgroundImage: `url(/st-website/src/Assets/images/1.jpg)`}}>
                     </div>
                 </div>
             </div>

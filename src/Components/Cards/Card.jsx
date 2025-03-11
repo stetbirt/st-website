@@ -2,7 +2,7 @@ import './Card.css'
 
 const Card = ({ imageName, title, description }) => {
     return (
-        <div className="main-card" style={{backgroundImage: `url(/src/Assets/images/${imageName})`}}>
+        <div className="main-card" style={{backgroundImage: `url(/st-website/src/Assets/images/${imageName})`}}>
 
             <div className="title-desc text-white gradient-filter px-4">
                     <div className="image-title-234 text-5xl league-spartan-400 pb-3">

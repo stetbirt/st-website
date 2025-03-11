@@ -5,7 +5,7 @@ import React from "react";
 
 export const Home = () => {
 
-    const directory = '/src/Assets/logos/';
+    const directory = '/st-website/src/Assets/logos/';
 
     const images = [
         {
@@ -97,8 +97,8 @@ export const Home = () => {
             thumbnail: "https://picsum.photos/id/1018/1920/1080/",
         },
         {
-            original: '/src/Assets/images/1.jpg',
-            thumbnail: '/src/Assets/images/1.jpg',
+            original: '/st-website/src/Assets/images/1.jpg',
+            thumbnail: '/st-website/src/Assets/images/1.jpg',
         },
         {
             original: "https://picsum.photos/id/1015/3840/2160/",
@@ -178,7 +178,7 @@ export const Home = () => {
                 </div>
             </div>
 
-            <div className="mega-container">
+            <div>
                 <div className="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
                     <div className="flex flex-col lg:flex-row justify-between gap-14">
                         <div className="w-full lg:w-5/12 flex flex-col">
@@ -201,13 +201,13 @@ export const Home = () => {
                                 tellus nec libero eleifend dapibus vel id nisi.</p>
                         </div>
                         <div className="main-image w-full lg:w-8/12"
-                             style={{backgroundImage: `url(/src/Assets/images/1.jpg)`}}>
+                             style={{backgroundImage: `url(/st-website/src/Assets/images/1.jpg)`}}>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <p className="league-spartan-400 text-black text-xl pt-96 text-center">ALL RIGHTS RESERVED</p>
+            <p className="pt-16 league-spartan-400 text-black text-xl text-center">ALL RIGHTS RESERVED</p>
         </div>
 
     );

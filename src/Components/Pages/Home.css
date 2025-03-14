@@ -1,9 +1,8 @@
 .header-section1{
-    height: 800px;
     background: black;
     background: no-repeat;
     background-size: cover;
-    background-position: center 100px;
+    background-position: center;
 }
 
 .card {
@@ -24,13 +23,31 @@
 }
 
 .main-carousel-page {
-    width: 1560px;
+    width: 80%;
+    min-width: 300px;
     padding-right: 20px;
     padding-left: 20px;
 }
 
 .image-gallery-slide img {
-    height: 800px;
+    height: 80vh;
+}
+
+.image-gallery-play-button {
+    position: absolute !important;
+    left: auto !important;
+    bottom: 50px !important;
+    right: 0 !important;
+}
+
+.image-gallery-bullets {
+    max-width: fit-content;
+}
+
+.image-gallery-bullets-container {
+    padding: 10px !important;
+    border-radius: 20px;
+    background-color:rgba(0, 0, 0, 0.6) !important;
 }
 
 .fullscreen .image-gallery-slide img {

@@ -83,83 +83,7 @@ export const Home = () => {
         {
             original : directory + "zaweche.png",
             thumbnail : directory + "zaweche.png",
-        },
-        {
-            original: "https://picsum.photos/id/1016/3840/2160/",
-            thumbnail: "https://picsum.photos/id/1016/1920/1080/",
-        },
-        {
-            original: "https://picsum.photos/id/1019/3840/2160/",
-            thumbnail: "https://picsum.photos/id/1019/1920/1080/",
-        },
-        {
-            original: "https://picsum.photos/id/1018/3840/2160/",
-            thumbnail: "https://picsum.photos/id/1018/1920/1080/",
-        },
-        {
-            original: "https://picsum.photos/id/1015/3840/2160/",
-            thumbnail: "https://picsum.photos/id/1015/1920/1080/",
-        },
-        {
-            original: "https://picsum.photos/id/1019/3840/2160/",
-            thumbnail: "https://picsum.photos/id/1019/1920/1080/",
-        },
-        {
-            original: "https://picsum.photos/id/1018/3840/2160/",
-            thumbnail: "https://picsum.photos/id/1018/1920/1080/",
-        },
-        {
-            original: "https://picsum.photos/id/1015/3840/2160/",
-            thumbnail: "https://picsum.photos/id/1015/1920/1080/",
-        },
-        {
-            original: "https://picsum.photos/id/1019/3840/2160/",
-            thumbnail: "https://picsum.photos/id/1019/1920/1080/",
-        },
-        {
-            original: "https://picsum.photos/id/1018/3840/2160/",
-            thumbnail: "https://picsum.photos/id/1018/1920/1080/",
-        },
-        {
-            original: "https://picsum.photos/id/1015/3840/2160/",
-            thumbnail: "https://picsum.photos/id/1015/1920/1080/",
-        },
-        {
-            original: "https://picsum.photos/id/1019/3840/2160/",
-            thumbnail: "https://picsum.photos/id/1019/1920/1080/",
-        },
-        {
-            original: "https://picsum.photos/id/1019/3840/2160/",
-            thumbnail: "https://picsum.photos/id/1019/1920/1080/",
-        },
-        {
-            original: "https://picsum.photos/id/1018/3840/2160/",
-            thumbnail: "https://picsum.photos/id/1018/1920/1080/",
-        },
-        {
-            original: "https://picsum.photos/id/1015/3840/2160/",
-            thumbnail: "https://picsum.photos/id/1015/1920/1080/",
-        },
-        {
-            original: "https://picsum.photos/id/1019/3840/2160/",
-            thumbnail: "https://picsum.photos/id/1019/1920/1080/",
-        },
-        {
-            original: "https://picsum.photos/id/1019/3840/2160/",
-            thumbnail: "https://picsum.photos/id/1019/1920/1080/",
-        },
-        {
-            original: "https://picsum.photos/id/1018/3840/2160/",
-            thumbnail: "https://picsum.photos/id/1018/1920/1080/",
-        },
-        {
-            original: "https://picsum.photos/id/1015/3840/2160/",
-            thumbnail: "https://picsum.photos/id/1015/1920/1080/",
-        },
-        {
-            original: "https://picsum.photos/id/1019/3840/2160/",
-            thumbnail: "https://picsum.photos/id/1019/1920/1080/",
-        },
+        }
     ];
 
     return (
@@ -170,6 +94,7 @@ export const Home = () => {
                     <ImageGallery
                         items={images}
                         thumbnailPosition={'left'}
+                        showBullets={true}
                     />
                 </div>
             </div>
@@ -197,7 +122,7 @@ export const Home = () => {
                                 tellus nec libero eleifend dapibus vel id nisi.</p>
                         </div>
                         <div className="main-image w-full lg:w-8/12"
-                             style={{backgroundImage: `url(/st-website/assets/images/1.jpg)`}}>
+                             style={{backgroundImage: `url(/st-website/assets/logos/PROTOTYPES-BOIS-HA2.png)`}}>
                         </div>
                     </div>
                 </div>
